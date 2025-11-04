@@ -447,12 +447,6 @@ The plugin utilizes the following Stripe SDK capabilities:
 
 This project is licensed under the **GPL-2.0+ License** - see the [GPL v2 license](http://www.gnu.org/licenses/gpl-2.0.txt) for details.
 
-This means you are free to:
-- Use this plugin for personal or commercial purposes
-- Modify the code to suit your needs
-- Distribute the plugin
-- Use it in your own projects
-
 ## Support
 
 For issues, questions, or contributions:
