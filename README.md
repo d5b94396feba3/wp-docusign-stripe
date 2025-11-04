@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WordPress DocuSign & Stripe Integration Plugin
 
 A WordPress plugin that seamlessly integrates DocuSign electronic signatures with Stripe payment processing. This plugin automates the contract signing and payment workflow, allowing clients to sign agreements via DocuSign and immediately proceed to secure payment processing through Stripe.
@@ -469,4 +470,3 @@ For issues, questions, or contributions, please [provide contact information or 
 ## Contributing
 
 [Add contribution guidelines if applicable]
-
