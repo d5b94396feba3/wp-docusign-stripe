@@ -445,11 +445,27 @@ The plugin utilizes the following Stripe SDK capabilities:
 
 ## License
 
-[Specify your license here]
+This project is licensed under the **GPL-2.0+ License** - see the [GPL v2 license](http://www.gnu.org/licenses/gpl-2.0.txt) for details.
+
+This means you are free to:
+- Use this plugin for personal or commercial purposes
+- Modify the code to suit your needs
+- Distribute the plugin
+- Use it in your own projects
 
 ## Support
 
-For issues, questions, or contributions, please [provide contact information or repository link].
+For issues, questions, or contributions:
+
+- **GitHub Issues**: [Report an issue](https://github.com/d5b94396feba3/wp-docusign-stripe/issues)
+- **Repository**: [https://github.com/d5b94396feba3/wp-docusign-stripe](https://github.com/d5b94396feba3/wp-docusign-stripe)
+
+When reporting issues, please include:
+- WordPress version
+- PHP version
+- Plugin version
+- Steps to reproduce the issue
+- Any error messages or logs
 
 ### Related Resources
 
@@ -469,4 +485,36 @@ For issues, questions, or contributions, please [provide contact information or 
 
 ## Contributing
 
-[Add contribution guidelines if applicable]
+Contributions are welcome! If you'd like to contribute to this project:
+
+1. **Fork the repository** on GitHub
+2. **Create a feature branch** from `main`:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make your changes** following WordPress coding standards
+4. **Test your changes** thoroughly
+5. **Commit your changes** with clear commit messages:
+   ```bash
+   git commit -m "Add: Description of your changes"
+   ```
+6. **Push to your fork**:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+7. **Submit a Pull Request** with a clear description of your changes
+
+### Coding Standards
+
+- Follow [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/)
+- Use meaningful variable and function names
+- Add comments for complex logic
+- Ensure all functions are properly documented
+- Test your changes before submitting
+
+### Pull Request Guidelines
+
+- Keep PRs focused on a single feature or fix
+- Include tests if applicable
+- Update documentation if needed
+- Ensure your code follows the existing code style
