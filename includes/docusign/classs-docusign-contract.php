@@ -234,7 +234,7 @@ class Plugin_DocuSign_Contract {
             // Check specifically for the 'consent required' error
             if ($docu_error === 'consent_required' || $docu_error === 'invalid_grant') {
                 
-                // Construct the DocuSign consent URL (keeping admin_url as requested)
+                // Construct the DocuSign consent URL
                 $redirect_uri = admin_url();
                 $consent_url = DS_AUTH_SERVER . '/oauth/auth?' . http_build_query([
                     'response_type' => 'code',
@@ -357,7 +357,7 @@ class Plugin_DocuSign_Contract {
             // 3. Send the Envelope to DocuSign
             $envelope_id = $this->send_envelope_to_docusign($ds_auth, $vars, $html_contract);
             if (is_wp_error($envelope_id)) {
-                $error_data = $envelope_id->get_error_data(); // Compatible access for WP_Error data
+                $error_data = $envelope_id->get_error_data(); 
                 return [
                     'success' => false,
                     'message' => $envelope_id->get_error_message(),
